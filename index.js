@@ -38,7 +38,7 @@ module.exports = {
 	'rules': {
 		// eslint recommended overrides
 		'accessor-pairs':                'error',
-		'array-bracket-spacing':         [ 'warn', 'always' ],
+		'array-bracket-spacing':         [ 'warn', 'always', { 'singleValue': false } ],
 		'array-callback-return':         'error',
 		'arrow-parens':                  'off',
 		'arrow-spacing':                 [ 'error', { 'after': true, 'before': true } ],
